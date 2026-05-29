@@ -1,0 +1,41 @@
+{
+	"pages": [
+		{
+			"path": "pages/work/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"color": "white",
+		"selectedColor": "white",
+		"backgroundColor": "#F4F4F4",
+		"borderStyle": "white",
+		"list": [
+			{
+				"pagePath": "pages/work/index",
+				"text": "工作台"
+			},
+			{
+				"pagePath": "pages/inspection/index",
+				"text": "巡检"
+			},
+			{
+				"pagePath": "pages/check/index",
+				"text": "盘点"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"text": "我的"
+			}
+		]
+	},
+	"easycom": {
+		"autoscan": true
+	}
+}
