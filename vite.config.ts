@@ -10,8 +10,7 @@ export default async () => {
       preprocessorOptions: {
         scss: {
           api: 'modern-compiler',
-          silenceDeprecations: ['legacy-js-api'],
-          additionalData: `@use "@/static/style/variables.scss" as *;`
+          silenceDeprecations: ['legacy-js-api']
         }
       }
     }
